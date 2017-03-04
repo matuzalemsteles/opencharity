@@ -1,6 +1,7 @@
 body {
 	font-size: $font14;
-	font-family: $fontFamily;
+	font-family: $fontMuseoSans;
+	color: map-get($colors, dark);
 	background-color: map-get($colors, light);
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;

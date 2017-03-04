@@ -13,6 +13,11 @@
 	}
 }
 
+.button.button-xl {
+	padding: 12px 18px 10px;
+  font-size: 15px;
+}
+
 .button-link.button-primary {
 	color: map-get($colors, primary);
 	background-color: transparent;
@@ -27,6 +32,12 @@
 .button-primary {
 	background-color: map-get($colors, primary);
 	color: map-get($colors, light);
+
+	&:hover {
+		$background: map-get($colors, primary);
+		background-color: darken($background, 8);
+		color: map-get($colors, light);
+	}
 }
 
 .button-padding-none {

@@ -1,0 +1,10 @@
+.section {
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 34px 0;
+
+	&.section-color {
+		background-color: map-get($colors, secondary);
+	}
+}
