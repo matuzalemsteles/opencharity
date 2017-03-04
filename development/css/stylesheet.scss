@@ -1,0 +1,24 @@
+$font-path: "../assets/fonts/";
+
+// Shared Variables
+// --------------------------------------------------
+@import "variables/variable";
+
+// Named Color Variables
+// --------------------------------------------------
+$colors: (
+	primary:    #1171AA,
+  secondary:  #323641,
+  danger:     #c41c1c,
+  light:      #ffffff,
+  success:    #29c11a,
+  dark:       #44464E
+);
+
+// Core
+// --------------------------------------------------
+@import "@modules/core";
+
+// Components
+// --------------------------------------------------
+@import "@modules/components";
