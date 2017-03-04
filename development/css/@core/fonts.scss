@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 @font-face {
 	font-family: 'MuseoSans-500';
 	src: url($font-path + '332DA4_0_0.eot');
@@ -5,4 +7,13 @@
 			url($font-path + '332DA4_0_0.woff2') format('woff2'),
 			url($font-path + '332DA4_0_0.woff') format('woff'),
 			url($font-path + '332DA4_0_0.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Museo Sans Rounded';
+	src: url($font-path + 'museosansrounded-300-webfont-4d607c99.eot');
+	src: url($font-path + 'museosansrounded-300-webfont-4d607c99.eot?#iefix') format('embedded-opentype'),
+			url($font-path + 'museosansrounded-300-webfont-dc7963c3.svg') format('svg'),
+			url($font-path + 'museosansrounded-300-webfont-5b31827c.woff') format('woff'),
+			url($font-path + 'museosansrounded-300-webfont-8ff6872e.ttf') format('truetype');
 }
