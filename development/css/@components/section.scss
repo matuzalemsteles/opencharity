@@ -8,3 +8,32 @@
 		background-color: map-get($colors, secondary);
 	}
 }
+
+.section-title {
+	position: relative;
+	text-align: center;
+
+	h1 {
+		font-size: 26px;
+		font-weight: normal;
+		text-transform: uppercase;
+	}
+}
+
+.section-description {
+	position: relative;
+	text-align: center;
+	margin-top: 30px;
+
+	p {
+		font-size: 15px;
+		color: #5b6172;
+		margin-bottom: 23px;
+	}
+
+	h4 {
+		font-size: 17px;
+		color: #5b6172;
+		margin-bottom: 23px;
+	}
+}

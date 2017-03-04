@@ -22,7 +22,7 @@ img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 45px;
+  padding: 0 40px;
 }
 
 // Container points
@@ -41,62 +41,5 @@ img {
 @media (min-width: 1200px) {
   .container {
     width: $container-width;
-  }
-}
-
-// Row
-.row {
-  margin-left: -20px;
-  margin-right: -20px;
-}
-
-.row:before,
-.row:after {
-  content: "";
-  display: table;
-}
-
-.row:after {
- 	clear: both;
-}
- 
-// Columns 
-.column {
-  display: inline-block;
-  vertical-align: top;
-  min-height: 1px;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 100%;
-  margin-right: -4px;
-  *zoom: 1;
-  *display: inline;
-}
-
-.column.column-middle {
-  vertical-align: middle;
-}
-
-.column-right {
-  text-align: right;
-}
-
-.column-left {
-  text-align: left;
-}
-
-.column-offset-3-1 {
-  margin-left: 21.3%;
-}
-
-@for $i from 1 through 12 {
-  .column-#{$i} {
-    width: percentage($i/12);
-  }
-}
-
-@media (max-width: 768px) {
-  .col {
-    width: 100%;
   }
 }

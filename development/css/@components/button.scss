@@ -18,6 +18,11 @@
   font-size: 15px;
 }
 
+.button.button-block {
+	font-size: 15px;
+	padding: 12px 45px 10px;
+}
+
 .button-link.button-primary {
 	color: map-get($colors, primary);
 	background-color: transparent;
