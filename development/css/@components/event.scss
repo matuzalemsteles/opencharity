@@ -1,0 +1,25 @@
+.event {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.event-info {
+		span {
+			color: map-get($colors, primary);
+		}
+
+		p:first-child {
+			font-size: 16px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		p:last-child {
+			color: #5b6172;
+		}
+	}
+
+	.event-action {
+		display: flex;
+	}
+}

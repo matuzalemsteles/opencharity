@@ -1,14 +1,26 @@
 .button {
+	cursor: pointer;
 	font-family: $fontMuseoSans;
 	font-size: $font13;
 	text-transform: uppercase;
 	color: map-get($colors, dark);
 	padding: 12px 25px 10px;
+	user-select: none;
 	transition: 0.2s;
 
 	&:hover {
 		color: map-get($colors, primary);
 	}
+}
+
+.button.button-xl {
+	padding: 12px 18px 10px;
+  font-size: 15px;
+}
+
+.button.button-block {
+	font-size: 15px;
+	padding: 12px 45px 10px;
 }
 
 .button-link.button-primary {
@@ -25,6 +37,12 @@
 .button-primary {
 	background-color: map-get($colors, primary);
 	color: map-get($colors, light);
+
+	&:hover {
+		$background: map-get($colors, primary);
+		background-color: darken($background, 8);
+		color: map-get($colors, light);
+	}
 }
 
 .button-padding-none {
