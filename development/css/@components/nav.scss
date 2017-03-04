@@ -5,11 +5,4 @@
 
 .nav-item {
 	padding: 0 20px;
-
-	a {
-		font-family: $fontMuseoSans;
-		font-size: $font18;
-		text-transform: uppercase;
-		color: map-get($colors, dark);
-	}
 }
