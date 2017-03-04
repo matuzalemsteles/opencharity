@@ -1,4 +1,4 @@
-var scss = "./development/css/stylesheet.sass";
+var scss = "./development/css/stylesheet.scss";
 var js  = "./development/js/*.js";
 var gulp = require('gulp');
 var sass = require('gulp-sass');
