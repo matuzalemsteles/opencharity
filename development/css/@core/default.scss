@@ -1,7 +1,7 @@
 body {
-	font-size: 14px;
+	font-size: $font14;
 	font-family: $fontFamily;
-	background-color: #F5F5F5;
+	background-color: map-get($colors, light);
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 	text-size-adjust: none;
@@ -9,4 +9,9 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
