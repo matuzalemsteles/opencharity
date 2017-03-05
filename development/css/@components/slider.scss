@@ -1,0 +1,26 @@
+.blog-slider,
+.slider-members {
+	margin-top: 30px;
+}
+
+.blog-slider {
+	&.owl-theme .owl-nav {
+		position: absolute;
+    width: 111%;
+    left: -6%;
+    display: flex;
+    justify-content: space-between;
+    top: calc(50% - 50px);
+
+    &:hover {
+    	background: transparent;
+    	color: darken(#61c0bd, 10);
+    }
+	}
+
+	&.owl-theme .owl-nav [class*=owl-] {
+		color: #61c0bd;
+		font-size: 50px;
+		background: transparent;
+	}
+}
