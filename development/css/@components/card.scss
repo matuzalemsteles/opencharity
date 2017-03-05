@@ -12,10 +12,14 @@
 	flex-direction: column;
 	width: 33.33333%;
 	padding: 50px 22px 30px;
-	margin: 0 16px;
+	margin-right: 30px;
 	border-radius: 7px;
 	text-align: center;
 	background-color: map-get($colors, light);
+
+	&:last-child {
+		margin-right: 0;
+	}
 }
 
 .card-info {
