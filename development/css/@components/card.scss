@@ -27,10 +27,11 @@
 		font-size: 17px;
 		color: map-get($colors, lightblue);
 		margin: 20px 0;
+		font-weight: 500;
 	}
 
 	p {
-
+		-webkit-font-smoothing: antialiased;
 	}
 }
 
