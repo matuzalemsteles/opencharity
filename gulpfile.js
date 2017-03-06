@@ -4,6 +4,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var concat = require("gulp-concat");
 var cssmin = require('gulp-cssmin');
+var uglify = require('gulp-uglify');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
 
@@ -19,6 +20,7 @@ gulp.task('sass', function () {
 gulp.task('minify-js', function () {
     gulp.src(js)
     .pipe(concat('script.min.js'))
+    .pipe(uglify())
     .pipe(gulp.dest('./assets/js/'));
 });
 
