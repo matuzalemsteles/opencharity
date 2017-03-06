@@ -8,6 +8,13 @@ $(document).ready(function () {
     });
 });
 
+$('.anchor').click(function(){
+    $('body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
+
 $('.slider-members').owlCarousel({
   loop: false,
   items: 5,
