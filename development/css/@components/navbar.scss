@@ -6,4 +6,23 @@
 .navbar-nav {
 	display: flex;
 	align-items: center;
+
+	&.navbar-open {
+		display: block !important;
+	}
+}
+
+.navbar-toggle {
+	cursor: pointer;
+	display: none;
+	transition: 0.2s;
+
+	&:hover {
+		color: map-get($colors, primary);
+	}
+
+	i {
+		font-size: 25px;
+		line-height: 29px;
+	}
 }
