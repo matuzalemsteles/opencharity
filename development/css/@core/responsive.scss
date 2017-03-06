@@ -111,3 +111,10 @@
 		font-size: 44px !important;
 	}
 }
+
+@media (max-width: 370px) {
+	.blog-slider.owl-theme .owl-nav {
+		width: 146%!important;
+    left: -24%!important;
+	}
+}
