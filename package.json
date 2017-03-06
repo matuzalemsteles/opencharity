@@ -13,6 +13,7 @@
     "gulp-concat": "*",
     "gulp-cssmin": "*",
     "gulp-postcss": "^6.3.0",
-    "gulp-sass": "*"
+    "gulp-sass": "*",
+    "gulp-uglify": "^2.0.1"
   }
 }
