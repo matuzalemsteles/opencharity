@@ -14,6 +14,7 @@
 
 .navbar-toggle {
 	cursor: pointer;
+	user-select: none;
 	display: none;
 	transition: 0.2s;
 
